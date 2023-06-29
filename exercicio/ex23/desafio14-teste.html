@@ -10,30 +10,87 @@
         }
         table {
             border-collapse: collapse;
+            margin: 50px;
         }
         tr, td, th{
-            border: 1px solid black;
+            border: 1.9px solid black;
+            
         }
+
+        td {
+            padding: 10px;
+        }
+        
+        th {
+            padding: 10px;
+        }
+
+        .destaque {
+            color: white;
+            background-color: gray
+        }
+        
     </style>
 </head>
 <body>
     <table>
         <thead>
-            <tr>
-                <th >Área</th>
-                <th >Disciplinas</th>
-                <th >Notas</th>
-                <th >Nota 1</th>
-                <th >Nota 2</th>
-                <th>Média</th>
+            <tr class="destaque">
+                <th rowspan="2">Área</th>
+                <th rowspan="2">Disciplinas</th>
+                <th colspan="2">Notas</th>
+                <th rowspan="2">Média</th>
             </tr>
-            <tr>
-                <th rowspan="4">Exatas</th>
-                <td>Matemática</td>
+            <tr class="destaque">
+                <td >Nota 1</td>
+                <td >Nota 2</td>
             </tr>
         </thead>
         <tbody>
-
+            <th rowspan="4" scope="colgroup">Exatas</th>
+            <th scope="col">Matemática</th>
+            <td>0.0</td>
+            <td>0.0</td>
+            <td>0.0</td>
+            <tr>
+                <th scope="col">Fisica</th>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <th scope="col">Quimica</th>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <th scope="col">Biologia</th>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr class="destaque">
+                <th colspan="4" scope="col">Média de Exatas</th>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <th rowspan="2" scope="colgroup">Humanas</th>
+                <th scope="col">Historia</th>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <tr>
+                    <th scope="col">Geografia</th>
+                    <td>0.0</td>
+                    <td>0.0</td>
+                    <td>0.0</td>
+                </tr>
+                <tr class="destaque">
+                    <th colspan="4" scope="col">Média de Exatas</th>
+                    <td>0.0</td>
+                </tr>
+            </tr>
         </tbody>
     </table>
     
