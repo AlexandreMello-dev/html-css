@@ -1,3 +1,7 @@
 @charset "UTF-8";
 
-/* Configurações em quando estive de pé
+/* Configurações em quando estive de pé */
+
+body {
+    background-image: url(../imagens/cev-portrait.jpg);
+}
