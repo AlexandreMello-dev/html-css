@@ -10,12 +10,14 @@
 
 html, body {
     width: 100vw;
-    height: 100px;
+    height: 100vh;
     background-color: #233eff;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 h1 {
     color: white;
-    text-shadow: 2px 2px 0px #152494f3;
+    text-shadow: 2px 2px 0px #1424a0;
     padding: 10px;
 }
