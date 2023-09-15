@@ -2,7 +2,6 @@
 
 * {
     font-family: Arial, Helvetica, sans-serif;
-
     margin: 0px;
     padding: 0px;
 }
@@ -20,7 +19,7 @@ header > h1 {
     text-align: center;
 }
 
-span#burger {
+span#burguer {
     background-color: rgb(48, 48, 48);
     color: white;
     display: block;
@@ -29,7 +28,7 @@ span#burger {
     cursor: pointer;
 }
 
-span#burger:hover {
+span#burguer:hover {
     background-color: white;
     color: black;
 }
